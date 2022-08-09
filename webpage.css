@@ -21,10 +21,11 @@ h2{
 .first{
     display: flex;
     margin-bottom: 250px;
-    background-image:url(corner/top-banner.png);
+    background-image:url(corner/circle-corner-modified.png);
+    background-position-y: center;
 background-repeat: no-repeat;
-background-size: 4%;
-background-position:left;
+background-size: 7%;
+background-position:top;
 
 
 
@@ -32,10 +33,11 @@ background-position:left;
 .second{
     display: flex;
     margin-bottom: 250px;
-    background-image: url(corner/top-banner2.png);
+    background-image: url(corner/code-circle.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 4%;
+    background-position: left;
+    background-size: 5%;
+    background-position-x: center;
 
 }
 .top-div{
@@ -76,10 +78,19 @@ background-position:left;
     margin-bottom: 250px;
     background-position-x: right;
     background-position: left;
+    background-image: url(corner/java-circle.png);
+    background-position: top;
+    background-position-x: top;
+    background-position: 760px 15px;
+    background-repeat: no-repeat;
+    background-size: 5%;
 }
 .top-div3{
     width: 70%;
     margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-left: 10px;
         box-shadow:  20px 20px 15px rgb(53, 61, 44);
     border-radius: 40px;
     padding-left: 60px;
@@ -88,4 +99,8 @@ background-position:left;
 footer{
     text-align: center;
     color: cyan;
+}
+.square{    
+    list-style-type: square;
+
 }
